@@ -15,6 +15,9 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
 
+# Activate live reload
+activate :livereload, :host => '192.168.154.100'
+
 # Activate the syntax highlighter
 activate :syntax
 ready do

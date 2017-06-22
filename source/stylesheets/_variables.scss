@@ -19,22 +19,31 @@ under the License.
 // CUSTOMIZE SLATE
 ////////////////////////////////////////////////////////////////////////////////
 // Use these settings to help adjust the appearance of Slate
+$red1: #720000;
+$red2: #d33232;
+$white1: #ffffff;
+$white2: #fafafa;
+$white3: #f2f2f2;
+$dark1: #151515;
+$dark2: #202020;
+$dark3: #262626;
+$dark4: #393939;
 
 
 // BACKGROUND COLORS
 ////////////////////
-$nav-bg: #393939 !default;
-$examples-bg: #393939 !default;
-$code-bg: #292929 !default;
-$code-annotation-bg: #1c1c1c !default;
-$nav-subitem-bg: #262626 !default;
-$nav-active-bg: #2467af !default;
+$nav-bg: $dark4 !default;
+$examples-bg: $dark4 !default;
+$code-bg: $dark2 !default;
+$code-annotation-bg: $dark1 !default;
+$nav-subitem-bg: $dark3 !default;
+$nav-active-bg: $red1 !default;
 $lang-select-border: #000 !default;
 $lang-select-bg: #222 !default;
 $lang-select-active-bg: $examples-bg !default; // feel free to change this to blue or something
 $lang-select-pressed-bg: #111 !default; // color of language tab bg when mouse is pressed
-$main-bg: #eaf2f6 !default;
-$aside-notice-bg: #8fbcd4 !default;
+$main-bg: $white2 !default;
+$aside-notice-bg: $white3 !default;
 $aside-warning-bg: #c97a7e !default;
 $aside-success-bg: #6ac174 !default;
 $search-notice-bg: #c97a7e !default;

@@ -1,0 +1,18 @@
+.tocify-wrapper img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.content a {
+  color: #d33232;
+}
+
+td:last-child {
+  width: 100%;
+}
+
+td code, thead th {
+  white-space: nowrap;
+  overflow: hidden;
+}
